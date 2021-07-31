@@ -7,10 +7,10 @@
 VBR="2500k"                                    # Bitrate of output
 FPS="30"                                       # FPS of output vid
 QUAL="faster"                                  # FFMPEG quality preset
-STREAM_URL="rtmps://global-live.mux.com:443/app"  # RTMPS SERVER URL
+STREAM_URL="RTMP_SERVER_HERE:443/app"  # RTMPS SERVER URL
 TUNE="zerolatency"
-SOURCE="https://player.vimeo.com/external/470096829.hd.mp4?s=d41d108cf07d32c5691d988165a0bde43994b1f6&profile_id=174"              # Source file
-KEY="62312d9c-d636-4e3c-a6d5-ca3244445d69"                     # Stream Key
+SOURCE="INPUT_GOES_HERE"              # Source file
+KEY="STREAM_KEY_HERE"                     # Stream Key
 
 ffmpeg \
     -re -i "$SOURCE" -deinterlace \
