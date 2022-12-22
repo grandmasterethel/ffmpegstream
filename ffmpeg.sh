@@ -1,6 +1,6 @@
 #! /bin/bash
 #
-# broadcast to mux with ffmpeg
+# broadcast to RTMP/RTMPS with ffmpeg
 
 # Configured to output at 720p.
 
